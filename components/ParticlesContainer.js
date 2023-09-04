@@ -1,5 +1,9 @@
 const ParticlesContainer = () => {
-  return <div>Particles Container</div>;
-};
+    return (
+        <div>
+            ParticlesContainer
+        </div>
+    );
+}
 
 export default ParticlesContainer;

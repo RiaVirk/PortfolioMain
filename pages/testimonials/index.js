@@ -1,5 +1,9 @@
 const Testimonials = () => {
-  return <div>Testimonials</div>;
-};
+    return (
+        <div>
+            Testimonials
+        </div>
+    );
+}
 
 export default Testimonials;

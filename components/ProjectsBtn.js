@@ -1,5 +1,9 @@
 const ProjectsBtn = () => {
-  return <div>Project Btn</div>;
-};
+    return (
+        <div>
+            ProjectsBtn
+        </div>
+    );
+}
 
 export default ProjectsBtn;

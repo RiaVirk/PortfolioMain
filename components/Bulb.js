@@ -1,5 +1,9 @@
 const Bulb = () => {
-  return <div>Bulb</div>;
-};
+    return (
+        <div>
+            Bulb usman virk
+        </div>
+    );
+}
 
 export default Bulb;
