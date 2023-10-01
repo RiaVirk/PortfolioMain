@@ -48,6 +48,5 @@ const workSlides = {
     return <div>Work Slider</div>;
   };
   
-  
   export default WorkSlider;
   
