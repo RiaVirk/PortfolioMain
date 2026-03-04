@@ -1,7 +1,17 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
-    }
-  }
+      "@/*": ["./*"] 
+    },
+    "checkJs": false,
+    "skipLibCheck": true
+  },
+  "include": [
+    "**/*.js",
+    "**/*.jsx",
+    "Components/**/*",
+    "Pages/**/*"
+  ],
+  "exclude": ["node_modules", ".next", "out"]
 }
