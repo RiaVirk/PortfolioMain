@@ -13,7 +13,7 @@ const ParticlesContainer = () => {
 
   return (
     <Particles
-      className="w-full h-full absolute translate-z-0"
+      className="w-full h-full absolute translate-z-0 pointer-events-none"
       id="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
@@ -90,7 +90,7 @@ const ParticlesContainer = () => {
             value: 0.5,
           },
           shape: {
-            type: "circle"
+            type: "circle",
           },
           size: {
             value: { min: 2, max: 5 },

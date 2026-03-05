@@ -97,6 +97,10 @@ const aboutData = [
       { title: "CS50X - Harvard University", stage: "2023" },
       { title: "Google Ads App Marketing Certification", stage: "2026" },
       { title: "Canva Visual Suite - Canva", stage: "2026" },
+      {
+        title: "JavaScript Algorithms and Data Structures - freeCodeCamp",
+        stage: "2023",
+      },
       { title: "Responsive Web Design - freeCodeCamp", stage: "2023" },
     ],
   },
@@ -199,15 +203,17 @@ const About = () => {
               </div>
             ))}
           </div>
-          <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start pb-32">
+          <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start pb-32 ">
             {aboutData[index].info.map((item, itemIndex) => (
               <div
                 key={itemIndex}
                 className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
               >
-                <div className="font-light mb-2 md:mb-0">{item.title}</div>
+                <div className="font-light mb-2 md:mb-0 whitespace-nowrap">
+                  {item.title}
+                </div>
                 <div className="hidden md:flex">-</div>
-                <div className="text-space">{item.stage}</div>
+                <div className="text-space whitespace-nowrap">{item.stage}</div>
                 <div className="flex gap-x-4">
                   {item.icons?.map((icon, iconIndex) => (
                     <div className="text-2xl text-white" key={iconIndex}>
