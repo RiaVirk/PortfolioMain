@@ -1,33 +1,44 @@
 import Link from "next/link";
 
-import {RiYoutubeLine, RiFacebookLine, RiInstagramLine, RiDribbbleLine, RiBehanceLine, RiPinterestLine, RiTwitterLine} from "react-icons/ri"
+import {
+  RiYoutubeLine,
+  RiFacebookLine,
+  RiInstagramLine,
+  RiDribbbleLine,
+  RiBehanceLine,
+  RiPinterestLine,
+  RiTwitterLine,
+  RiLinkedinBoxFill,
+  RiXingLine,
+} from "react-icons/ri";
 
 const Socials = () => {
-    return (
-        <div className="flex items-center gap-x-5 text-lg">
-            <Link href={''} className=" hover:text-space transition-all duration-300">
-            <RiYoutubeLine />
-            </Link>
-            <Link href={''} className=" hover:text-space transition-all duration-300">
-            <RiFacebookLine />
-            </Link>
-            <Link href={''} className=" hover:text-space transition-all duration-300">
-            <RiTwitterLine />
-            </Link>
-            <Link href={''} className=" hover:text-space transition-all duration-300">
-            <RiInstagramLine />
-            </Link>
-            <Link href={''} className=" hover:text-space transition-all duration-300">
-            <RiDribbbleLine />
-            </Link>
-            <Link href={''} className=" hover:text-space transition-all duration-300">
-            <RiBehanceLine />
-            </Link>
-            <Link href={''} className=" hover:text-space transition-all duration-300">
-            <RiPinterestLine />
-            </Link>
-        </div>
-    );
-}
+  return (
+    <div className="flex items-center gap-x-5 text-lg">
+      {/* <Link href={""} className=" hover:text-space transition-all duration-300">
+        <RiYoutubeLine />
+      </Link>
+      <Link href={""} className=" hover:text-space transition-all duration-300">
+        <RiFacebookLine />
+      </Link>
+      <Link href={""} className=" hover:text-space transition-all duration-300">
+        <RiTwitterLine />
+      </Link>
+      <Link href={""} className=" hover:text-space transition-all duration-300">
+        <RiInstagramLine />
+      </Link>
+      <Link href={""} className=" hover:text-space transition-all duration-300">
+        <RiDribbbleLine />
+      </Link> */}
+
+      <Link href={""} className=" hover:text-space transition-all duration-300">
+        <RiLinkedinBoxFill />
+      </Link>
+      <Link href={""} className=" hover:text-space transition-all duration-300">
+        <RiXingLine />
+      </Link>
+    </div>
+  );
+};
 
 export default Socials;

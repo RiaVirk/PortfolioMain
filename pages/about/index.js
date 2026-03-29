@@ -89,14 +89,21 @@ const aboutData = [
   {
     title: "credentials",
     info: [
+      { title: "Google Ads App Marketing Certification", stage: "2026" },
+      { title: "Canva Visual Suite - Canva", stage: "2026" },
+      { title: "Marketing with Canva - Canva", stage: "2026" },
+      { title: "Scale Creative Campaigns - Canva", stage: "2025" },
+      { title: "Canva Essentials - Canva", stage: "2025" },
       { title: "CS50AI - Harvard University", stage: "2025" },
       { title: "CS50SQL - Harvard University", stage: "2025" },
       { title: "CS50T - Harvard University", stage: "2024" },
       { title: "CS50W - Harvard University", stage: "2023" },
       { title: "CS50P - Harvard University", stage: "2023" },
       { title: "CS50X - Harvard University", stage: "2023" },
-      { title: "Google Ads App Marketing Certification", stage: "2026" },
-      { title: "Canva Visual Suite - Canva", stage: "2026" },
+      {
+        title: "Front End Development Libraries - freeCodeCamp",
+        stage: "2023",
+      },
       {
         title: "JavaScript Algorithms and Data Structures - freeCodeCamp",
         stage: "2023",

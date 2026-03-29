@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import Head from "next/head";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import Layout from "../Components/Layout";
 import Transition from "../Components/Transition";

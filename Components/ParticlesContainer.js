@@ -90,8 +90,20 @@ const ParticlesContainer = () => {
             value: 0.5,
           },
           shape: {
-            type: "circle",
+            type: "char",
+            options: {
+              char: {
+                value: "\uf17b", // Font Awesome unicode
+                font: "Font Awesome 5 Brands",
+                style: "",
+                weight: "400",
+                fill: true,
+              },
+            },
           },
+          // shape: {
+          //   type: "circle",
+          // },
           size: {
             value: { min: 2, max: 5 },
           },

@@ -23,10 +23,50 @@ const workSlides = {
           path: "/Project2.png",
           link: "https://mv-dinner-basic.netlify.app/",
         },
+        {
+          title: "title",
+          path: "/New_Project_soon.png",
+        },
+        {
+          title: "title",
+          path: "/New_Project_soon.png",
+        },
+        {
+          title: "title",
+          path: "/New_Project_soon.png",
+        },
+        {
+          title: "title",
+          path: "/New_Project_soon.png",
+        },
+        {
+          title: "title",
+          path: "/New_Project_soon.png",
+        },
       ],
     },
     {
       images: [
+        {
+          title: "title",
+          path: "/New_Project_soon.png",
+        },
+        {
+          title: "title",
+          path: "/New_Project_soon.png",
+        },
+        {
+          title: "title",
+          path: "/New_Project_soon.png",
+        },
+        {
+          title: "title",
+          path: "/New_Project_soon.png",
+        },
+        {
+          title: "title",
+          path: "/New_Project_soon.png",
+        },
         {
           title: "title",
           path: "/New_Project_soon.png",
@@ -67,11 +107,12 @@ const WorkSlider = () => {
       }}
       modules={[Pagination]}
       className="h-[280px] sm:h-[480px]"
+      style={{ paddingBottom: "30px" }}
     >
       {workSlides.slides.map((slide, index) => {
         return (
           <SwiperSlide key={index}>
-            <div className="grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer">
+            <div className="grid grid-cols-3 grid-rows-3 gap-4 cursor-pointer">
               {slide.images.map((image, index) => {
                 return (
                   <div
