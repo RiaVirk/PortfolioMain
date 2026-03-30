@@ -7,7 +7,7 @@ import {
   RiDribbbleLine,
   RiBehanceLine,
   RiPinterestLine,
-  RiTwitterLine,
+  RiTwitterXLine,
   RiLinkedinBoxFill,
   RiXingLine,
 } from "react-icons/ri";
@@ -31,11 +31,29 @@ const Socials = () => {
         <RiDribbbleLine />
       </Link> */}
 
-      <Link href={""} className=" hover:text-space transition-all duration-300">
+      <Link
+        href={"https://www.linkedin.com/in/maria-virk/"}
+        target="_blank"
+        rel="noopener noreferrer"
+        className=" hover:text-space transition-all duration-300"
+      >
         <RiLinkedinBoxFill />
       </Link>
-      <Link href={""} className=" hover:text-space transition-all duration-300">
+      <Link
+        href={"https://www.xing.com/profile/Maria_Virk"}
+        target="_blank"
+        rel="noopener noreferrer"
+        className=" hover:text-space transition-all duration-300"
+      >
         <RiXingLine />
+      </Link>
+      <Link
+        href={"https://x.com/RiaVirk"}
+        target="_blank"
+        rel="noopener noreferrer"
+        className=" hover:text-space transition-all duration-300"
+      >
+        <RiTwitterXLine />
       </Link>
     </div>
   );

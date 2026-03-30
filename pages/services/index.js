@@ -1,4 +1,3 @@
-
 import ServiceSlider from "../../Components/ServiceSlider";
 import Bulb from "../../Components/Bulb";
 import Circles from "../../Components/Circles";
@@ -8,7 +7,7 @@ import { fadeIn } from "../../variants";
 
 const Services = () => {
   return (
-    <div className="h-full bg-primary/30 py-36 flex items-center">
+    <div className="h-full bg-primary/30 pt-[180px] pb-20 xl:py-36 flex items-start xl:items-center overflow-y-auto">
       <Circles />
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">
@@ -29,9 +28,15 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              quo blanditiis vel consequuntur eius quasi magni ipsa laboriosam
-              doloremque labore?
+              Full-Stack Web Architecture: Building high-performance,
+              SEO-optimized platforms and seamless user experiences using modern
+              technologies like Next.js and React. <br />
+              <br /> Performance Marketing & Growth: Driving measurable revenue
+              and high-quality lead generation through data-driven campaigns,
+              Google Ads, and targeted social media strategies. <br />
+              <br /> AI & Digital Transformation: Leveraging rigorous computer
+              science principles to architect scalable, AI-enhanced digital
+              ecosystems that solve complex business challenges.
             </motion.p>
           </div>
 
@@ -40,7 +45,7 @@ const Services = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="w-full xl:max-w-[65%]"
+            className="w-full xl:max-w-[65%] xl:pt-20"
           >
             <ServiceSlider />
           </motion.div>

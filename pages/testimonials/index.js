@@ -1,4 +1,4 @@
-import TestimonialSlider from "../../Components/TestimonialSlider";
+// import TestimonialSlider from "../../Components/TestimonialSlider";
 
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
@@ -14,7 +14,8 @@ const Testimonials = () => {
           exit="hidden"
           className="h2 mb-8 xl:mb-0"
         >
-          What clients <span className="text-space">say.</span>
+          {/* What clients <span className="text-space">say.</span> */}
+          Maria <span className="text-space">Virk .</span>
         </motion.h2>
         <motion.div
           variants={fadeIn("up", 0.8)}
@@ -22,7 +23,7 @@ const Testimonials = () => {
           animate="show"
           exit="hidden"
         >
-          <TestimonialSlider />
+          {/* <TestimonialSlider /> */}
         </motion.div>
       </div>
     </div>

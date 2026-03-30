@@ -28,9 +28,10 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              quo blanditiis vel consequuntur eius quasi magni ipsa laboriosam
-              doloremque labore?
+              Turning complex challenges into scalable digital solutions. Browse
+              my recent work to see how I combine modern web technologies,
+              AI-enhanced architectures, and targeted marketing strategies to
+              deliver measurable revenue and flawless user experiences.
             </motion.p>
           </div>
 

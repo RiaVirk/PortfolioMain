@@ -28,9 +28,9 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
-            sapiente culpa, magni ipsam ullam sunt quis cum impedit est
-            incidunt!
+            Full-stack developer dedicated to building scalable web applications
+            and seamless user experiences. I bridge the gap between complex
+            ideas and clean, functional code.
           </motion.p>
           <div className="flex justify-center xl:hidden relative">
             <ProjectsBtn />
@@ -52,13 +52,12 @@ const Home = () => {
 
         <ParticlesContainer />
 
-
         <motion.div
           variants={fadeIn("up", 0.7)}
           initial="hidden"
           animate="show"
           exit="hidden"
-          transition={{duration: 1, ease: easeInOut}}
+          transition={{ duration: 0.5, ease: easeInOut }}
           className="max-w-[400] max-h-[500] mix-blend-color-dodge absolute -bottom-32 lg:bottom-16 lg:right-[8%]"
         >
           <Avatar />

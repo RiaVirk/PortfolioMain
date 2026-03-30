@@ -4,6 +4,12 @@ const workSlides = {
     {
       images: [
         {
+          title:
+            "Revenue Intelligence Platform for Venue & Hospitality Businesses",
+          path: "/Revnu.png",
+          link: "https://revnu-kappa.vercel.app/",
+        },
+        {
           title: "AI Event Concierge",
           path: "/AI_Event_Concierge.png",
           link: "https://ai-event-planner-lac.vercel.app/",
